@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="all.css">
+    <link rel="stylesheet" href="chat.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <template id="chat">
+        <div class="chat-item">
+        </div>
+    </template>
+
+    <template id="audio">
+        <div class="chat-audio">
+            <audio src="" controls></audio>
+        </div>
+    </template>
+
+    <template id="img">
+        <div class="chat-img">
+            <img src="https://sun9-17.userapi.com/c840626/v840626661/9586/KYJq-ZklpQE.jpg" alt="">
+        </div>
+    </template>
+
+    <div class="container">
+        <div class="chat">
+            <div class="chat-header">
+                <div class="profile">
+                    <div class="left">
+                        <button class="arrow"><i class="fas fa-chevron-left"></i></button>
+                        <img src="img/profile2.jpg" class="pp" alt="">
+                        <h2>Saida</h2>
+                        <span>online</span>
+                    </div>
+
+                    <div class="right">
+                        <button><i class="fas fa-video"></i></button>
+                        <button><i class="fas fa-phone-alt"></i></button>
+                        <button><i class="fas fa-ellipsis-v"></i></i></button>
+                    </div>
+                </div>
+
+            </div>
+            <div class="chat-box">
+
+            </div>
+            <div class="chat-footer">
+                <button class="btn"><i class="far fa-smile emo"></i></button>
+
+                <textarea class="input" placeholder="Type a message"></textarea>
+
+                <div class="icons">
+                    <div class="btn file">
+                        <i class="fas fa-paperclip"></i>
+                        <input type="file" accept="image/*">
+                    </div>
+                    <button class="camera btn"><i class="fas fa-camera"></i></button>
+
+                </div>
+                <button class="mic btn"><i class="fas fa-microphone"></i></button>
+            </div>
+        </div>
+
+
+    </div>
+
+    <video src=""> </video>
+
+    <canvas>
+
+
+    </canvas>
+    <script src="chat.js"></script>
+</body>
+
+</html>
